@@ -219,7 +219,6 @@ def create_board(name='Laravel Framework',
                  layout='default'):
     return pinterest.create_board(name=name, description=description, category=category,
                                   privacy=privacy, layout=layout)
-create_board()
 
 def create_board_section(board_id='', section_name=''):
     return pinterest.create_board_section(board_id=board_id, section_name=section_name)
@@ -234,6 +233,8 @@ def get_board_sections(board_id=''):
 
 def get_board_section_feed(section_id=''):
     return pinterest.get_section_pins(section_id=section_id)
+
+    
 
 
 def type_ahead(term="apple"):
