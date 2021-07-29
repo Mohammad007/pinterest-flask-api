@@ -5,12 +5,12 @@ from py3pin.Pinterest import Pinterest
 app = Flask(__name__)
 
 # Login Pinterest
-pinterest = Pinterest(email='bilalmalik1561@gmail.com',
-                      password='bilal12345',
-                      username='bilalmalik1561',
+pinterest = Pinterest(email='demo@gmail.com',
+                      password='demo',
+                      username='demo',
                       cred_root='cred_root')
 
-username = "bilalmalik1561"
+username = "demo"
 
 
 @app.route('/')
